@@ -1,8 +1,8 @@
 public class Printer {
     int a = 45;
-    public String printParams (){
+    public int printParams (){
         String formatingData = String.format("\"---<%d>---\"", a);
         System.out.println(formatingData);
-        return formatingData;
+        return a;
     }
 }
